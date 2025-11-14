@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" mediaPresentationDuration="PT14.0S" maxSegmentDuration="PT4.0S" minBufferTime="PT8.0S">
+  <ProgramInformation>
+	</ProgramInformation>
+  <ServiceDescription id="0">
+	</ServiceDescription>
+  <Period id="0" start="PT0.0S">
+    <AdaptationSet id="0" contentType="audio" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true">
+      <Representation id="0" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="96000" audioSamplingRate="16000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="1"/>
+        <BaseURL>https://pdx.cdn.nv.instructuremedia.com/originals/o-5gT5zPfCHsZbjc3nga1D5UEZbyDDsZW7/transcodings/t-2RuHDwWaFVNq1AnFshaE24BG87ZyC6eW/</BaseURL>
+        <SegmentTemplate timescale="16000" initialization="init-stream$RepresentationID$.m4s?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wZHguY2RuLm52Lmluc3RydWN0dXJlbWVkaWEuY29tL29yaWdpbmFscy9vLTVnVDV6UGZDSHNaYmpjM25nYTFENVVFWmJ5RERzWlc3L3RyYW5zY29kaW5ncy90LTJSdUhEd1dhRlZOcTFBbkZzaGFFMjRCRzg3WnlDNmVXLyoubTRzIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzYyNjQ1MDc0fX19XX0_&amp;Signature=Qq308DtyQgM4n3Sk6ZK73Ts9vmpync0Zb2D87MeXO09xgeHqT2ulyrBjWSHSEFiOoBdd83mCVWWzYIdDWHi502znhvezemytn5zrDACjeyaHXF1qHL46zqPrfd3iM5bqSBQdkBLrIQvPxEvVTppqLu8azsn3XbtT2pX3~K-fEjgI74Sod~rqhOQ~C6uIivsfmM4LD9SrMzMP8uHVXrILphjHTi4Mi2OjVvwRthiZiA8nnKqye3wLD8AJwV1BjoP1pHkJ~NvRDNGHKfr5YnOLxaZJVibiac6YEi89uV8x-AQnrpSEZc6GTLCX4uUrIE63O-GE7WleZ0Y2QAu7qoBXqg__&amp;Key-Pair-Id=APKAJLP4NHW7VFATZNDQ" media="chunk-stream$RepresentationID$-$Number%05d$.m4s?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wZHguY2RuLm52Lmluc3RydWN0dXJlbWVkaWEuY29tL29yaWdpbmFscy9vLTVnVDV6UGZDSHNaYmpjM25nYTFENVVFWmJ5RERzWlc3L3RyYW5zY29kaW5ncy90LTJSdUhEd1dhRlZOcTFBbkZzaGFFMjRCRzg3WnlDNmVXLyoubTRzIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzYyNjQ1MDc0fX19XX0_&amp;Signature=Qq308DtyQgM4n3Sk6ZK73Ts9vmpync0Zb2D87MeXO09xgeHqT2ulyrBjWSHSEFiOoBdd83mCVWWzYIdDWHi502znhvezemytn5zrDACjeyaHXF1qHL46zqPrfd3iM5bqSBQdkBLrIQvPxEvVTppqLu8azsn3XbtT2pX3~K-fEjgI74Sod~rqhOQ~C6uIivsfmM4LD9SrMzMP8uHVXrILphjHTi4Mi2OjVvwRthiZiA8nnKqye3wLD8AJwV1BjoP1pHkJ~NvRDNGHKfr5YnOLxaZJVibiac6YEi89uV8x-AQnrpSEZc6GTLCX4uUrIE63O-GE7WleZ0Y2QAu7qoBXqg__&amp;Key-Pair-Id=APKAJLP4NHW7VFATZNDQ" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="63488"/>
+            <S d="64512" r="1"/>
+            <S d="31328"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
